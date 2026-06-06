@@ -8,11 +8,7 @@ import { FaInstagram } from "react-icons/fa";
 import { GiMonkey } from "react-icons/gi";
 import { FaYoutube } from "react-icons/fa";
 
-interface SocialLink {
-  icon: string;
-  href: string;
-  label: string;
-}
+
 
 interface FooterLink {
   title: string;
@@ -21,12 +17,7 @@ interface FooterLink {
 
 export const Footer: React.FC = () => {
   
-  const socialLinks: SocialLink[] = [
-    { icon: 'fa-brands fa-telegram', href: '#', label: 'Telegram' },
-    { icon: 'fa-brands fa-instagram', href: '#', label: 'Instagram' },
-    { icon: 'fa-brands fa-x-twitter', href: '#', label: 'Twitter (X)' },
-    { icon: 'fa-brands fa-youtube', href: '#', label: 'YouTube' },
-  ];
+ 
 
   const footerLinks: FooterLink[] = [
     { title: 'Loyiha haqida', href: '#' },
